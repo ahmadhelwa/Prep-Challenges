@@ -39,14 +39,14 @@
 // Output: 5
 
 const objectCounter = (obj) => {
-    let sum = obj.reduce(   (voters)  => {
-       
-        voters ++;
-       
-        return voters;
-    } , 0 );
-    
-    return sum;
+  let sum = obj.reduce(   (voters)  => {
+     
+      voters ++;
+     
+      return voters;
+  } , 0 );
+  
+  return sum;
 };
 // -------------------------------------------------------------------------------------------------------
 
@@ -67,18 +67,18 @@ const objectCounter = (obj) => {
 
 const stringReverse = (str) => {
    
-    let array = str.split(' ');
-    
-    let arrayRevers = array.reduce((newArray, index)=>
-      {
-        newArray.push(index);
-        
-        return newArray;
-      }
-    , []
-    );
+  let array = str.split(' ');
+  
+  let arrayRevers = array.reduce((newArray, index)=>
+    {
+      newArray.push(index);
+      
+      return newArray;
+    }
+  , []
+  );
 
-    return arrayRevers.reverse().join(' ');
+  return arrayRevers.reverse().join(' ');
 };
 // -------------------------------------------------------------------------------------------------------
 
